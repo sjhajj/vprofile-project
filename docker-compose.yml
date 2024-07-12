@@ -28,7 +28,7 @@ services:
     image: sams1977/vprofileapp
     container_name: vproapp
     ports:
-      - "8081:8081"
+      - "8080:8080"
     volumes:
       - vproappdata:/usr/local/tomcat/webapps
 

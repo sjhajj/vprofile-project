@@ -1,5 +1,5 @@
 FROM nginx
-LABEL "Project"="vprofile"
+LABEL "Project"="Vprofile"
 LABEL "Author"="simran"
 
 RUN rm -rf /etc/nginx/conf.d/default.conf
